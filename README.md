@@ -251,21 +251,6 @@ Les captures de cette activité confirment quatre points essentiels :
 
 Ces résultats illustrent une première architecture distribuée où les fonctions métier sont isolées dans des services et l'accès réseau est centralisé par une passerelle.
 
-
-## 13. Captures d'écran
-
-Les captures référencées dans ce document doivent être placées dans un dossier `images/` à la racine du dépôt :
-
-```text
-images/
-├── customer-h2.png
-├── customer-rest.png
-├── inventory-h2.png
-├── inventory-rest.png
-├── gateway-customers.png
-└── eureka-dashboard.png
-```
-
 ## Conclusion
 
 Cette activité a permis de mettre en œuvre les premières briques d'une application distribuée avec Spring Cloud. La création de **Customer Service** et **Inventory Service** démontre la séparation des responsabilités métier, la persistance dans des bases indépendantes et l'exposition des données par REST. **Spring Cloud Gateway** fournit un accès centralisé, tandis que **Eureka** prépare la découverte dynamique des services.
